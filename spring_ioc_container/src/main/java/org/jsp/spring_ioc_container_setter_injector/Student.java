@@ -1,0 +1,54 @@
+package org.jsp.spring_ioc_container_setter_injector;
+
+public class Student {
+private int id;
+private String nme;
+private double percentage;
+private String address;
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getNme() {
+	return nme;
+}
+public void setNme(String nme) {
+	this.nme = nme;
+}
+public double getPercentage() {
+	return percentage;
+}
+public void setPercentage(double percentage) {
+	this.percentage = percentage;
+}
+public String getAddress() {
+	return address;
+}
+public void setAddress(String address) {
+	this.address = address;
+}
+public void start() {
+	System.out.println("hello");
+}
+
+public void destory() {
+	System.out.println("byee");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

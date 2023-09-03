@@ -1,0 +1,23 @@
+package com.jsp.ioc.annotation;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Driver {
+public static void main(String[] args) {
+	ApplicationContext context = new ClassPathXmlApplicationContext("configuration.xml");
+	Bike bike = (Bike) context.getBean("bike");
+	bike.bikeDetails();
+	
+	Pen pen = (Pen)context.getBean("pen");
+	pen.penDetails();
+	
+	Pen pen2 = context.getBean(Pen.class, "cow");
+	System.out.println("==============================================");
+	pen2.penDetails();
+	
+	Pencil pencil = context.getBean(Pencil.class, "pencil");
+	System.out.println("==============================================");
+	pencil.pencilDetails();
+}
+}

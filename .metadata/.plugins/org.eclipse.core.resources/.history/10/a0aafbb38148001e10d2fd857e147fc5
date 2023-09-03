@@ -1,0 +1,11 @@
+package com.jsp.annotation;
+
+public class Cat implements Animal_{
+
+	@Override
+	public void doSound() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

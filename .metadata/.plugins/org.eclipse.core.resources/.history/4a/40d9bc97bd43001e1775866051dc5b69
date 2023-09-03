@@ -1,0 +1,8 @@
+package snippet;
+
+public class Snippet {
+	Bike bike = (Bike)context.getBean("mybike");
+		bike.start();
+		bike.off();
+}
+

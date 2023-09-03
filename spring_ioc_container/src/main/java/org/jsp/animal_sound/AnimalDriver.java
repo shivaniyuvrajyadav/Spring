@@ -1,0 +1,13 @@
+package org.jsp.animal_sound;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AnimalDriver {
+public static void main(String[] args) {
+	ApplicationContext context = new ClassPathXmlApplicationContext("animal_dog_sound.xml");
+	AnimalSound sound = (AnimalSound)context.getBean("myanimal");
+	sound.doSound();
+	
+}
+}

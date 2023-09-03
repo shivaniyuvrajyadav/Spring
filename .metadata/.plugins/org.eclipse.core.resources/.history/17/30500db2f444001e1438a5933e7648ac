@@ -1,0 +1,16 @@
+package org.jsp.spring_ioc_container_injector;
+
+public class Car {
+	int cno;
+	String brand;
+	int price;
+	public Car(int cno, String brand, int price) {
+		super();
+		this.cno = cno;
+		this.brand = brand;
+		this.price = price;
+	}
+	
+	
+
+}

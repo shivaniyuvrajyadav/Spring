@@ -1,0 +1,11 @@
+package org.jsp.animal_sound;
+
+public class AnimalSound {
+
+	public void doSound() {
+		System.out.println("do sound");
+		
+		Dog dog = new Dog();
+		dog.Sound();
+	}
+}

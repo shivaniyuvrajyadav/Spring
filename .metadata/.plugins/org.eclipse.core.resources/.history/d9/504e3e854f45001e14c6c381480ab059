@@ -1,0 +1,29 @@
+package org.jsp.animal_sound;
+
+public class AnimalSound {
+private String animal;
+private String voice;
+
+	public String getAnimal() {
+	return animal;
+}
+
+public void setAnimal(String animal) {
+	this.animal = animal;
+}
+
+public String getVoice() {
+	return voice;
+}
+
+public void setVoice(String voice) {
+	this.voice = voice;
+}
+
+	public void doSound() {
+		System.out.println("do sound");
+		
+		Dog dog = new Dog();
+		dog.Sound();
+	}
+}

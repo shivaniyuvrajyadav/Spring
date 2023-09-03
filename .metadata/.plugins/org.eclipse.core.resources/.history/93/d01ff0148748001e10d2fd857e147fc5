@@ -1,0 +1,5 @@
+package com.jsp.ioc.annotation;
+
+public class Dao {
+
+}

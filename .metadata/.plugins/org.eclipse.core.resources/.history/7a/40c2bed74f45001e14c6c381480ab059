@@ -1,0 +1,9 @@
+package org.jsp.animal_sound;
+
+public class AnimalDriver {
+public static void main(String[] args) {
+	
+	AnimalSound sound = new AnimalSound();
+	sound.doSound();
+}
+}

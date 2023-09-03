@@ -1,0 +1,16 @@
+package com.jsp.annotation;
+
+import org.springframework.stereotype.Component;
+
+@Component
+
+public class Cat implements Animal_{
+
+	@Override
+	public void doSound() {
+		// TODO Auto-generated method stub
+		System.out.println("cat");
+	}
+
+}
+sx

@@ -1,0 +1,11 @@
+package org.jsp.animal_sound;
+
+public class Dog implements Animal{
+private String color;
+private String name;
+	public void Sound() {
+		// TODO Auto-generated method stub
+		System.out.println("animal sound");
+	}
+
+}

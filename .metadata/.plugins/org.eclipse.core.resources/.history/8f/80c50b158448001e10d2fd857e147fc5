@@ -1,0 +1,5 @@
+package com.jsp.annotation;
+
+public interface Animal_ {
+public void doSound();
+}

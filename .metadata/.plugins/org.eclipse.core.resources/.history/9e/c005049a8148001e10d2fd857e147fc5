@@ -1,0 +1,10 @@
+package com.jsp.annotation;
+
+public class Animal {
+
+	public void sound() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.jsp.ioc.annotation;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Pen {
+	@Value(value = "1")
+int id;
+	@Value(value = "blue")
+String color;
+	@Value(value = "remond")
+String name;
+	@Value(value = "23")
+int price;
+
+public void penDetails() {
+	System.out.println(id);
+	System.out.println(color);
+	System.out.println(name);
+	System.out.println(price);
+	
+}
+}

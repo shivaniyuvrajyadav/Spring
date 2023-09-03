@@ -1,0 +1,27 @@
+package com.jsp;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Food {
+int id;
+String name;
+double price;
+String origin;
+
+@Override
+public String toString() {
+	return "Food [id=" + id + ", name=" + name + ", price=" + price + ", origin=" + origin + "]";
+}
+
+public Food (@Value(value ="1")int id, @Value(value = "shivani")String name, @Value(value = "22") double price, @Value(value = "mah")String origin) {
+	
+	this.id = id;
+	this.name = name;
+	this.price = price;
+	this.origin = origin;
+}
+
+
+}
